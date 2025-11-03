@@ -13,13 +13,13 @@ interface CourseCardProps {
 export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
   return (
     <Card className="border">
-      <CardHeader className="h-64 bg-[#0F172A]">
+      <CardHeader className="h-64 overflow-hidden">
         <Image
           width={768}
           height={768}
           src={img}
           alt={title}
-          className="h-full w-full object-contain p-10"
+          className="h-full w-full object-cover"
         />
       </CardHeader>
       <CardBody>

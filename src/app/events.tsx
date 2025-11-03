@@ -6,27 +6,27 @@ import EventCard from "@/components/event-card";
 
 const EVENTS = [
   {
-    img: "/deykem-logo.png",
-    title: "Starter WordPress Paketi",
-    desc: "Kurumsal tema kurulumu, temel WordPress eklentileri ve SSL yap\u0131land\u0131rmas\u0131 dahildir.",
+    img: "/image/blogs/blog-1.svg",
+    title: "Resim Eklentisi Standart Lisans",
+    desc: "WebP d\u00f6n\u00fc\u015f\u00fcm\u00fc, CDN entegrasyonu ve otomatik g\u00f6rsel optimizasyonu ile h\u0131zlan\u0131n.",
     buttonLabel: "Hemen Sat\u0131n Al",
   },
   {
-    img: "/deykem-logo.png",
-    title: "Otomasyon Boost Plan",
-    desc: "CRM senaryolar\u0131, e-posta otomasyonlar\u0131 ve raporlama panolar\u0131 i\u00e7in haz\u0131r entegrasyonlar.",
+    img: "/image/blogs/blog3.svg",
+    title: "Dil Eklentisi \u00c7ok Dilli Paket",
+    desc: "Ger\u00e7ek zamanl\u0131 \u00e7eviri, manuel d\u00fczeltme paneli ve hreflang deste\u011fi tek pakette.",
     buttonLabel: "Hemen Sat\u0131n Al",
   },
   {
-    img: "/deykem-logo.png",
-    title: "AI Entegrasyon Paketi",
-    desc: "Yapay zek\u00e2 sohbet botu, belge s\u0131n\u0131fland\u0131rma ve RPA s\u00fcre\u00e7 otomasyonu \u00e7\u00f6z\u00fcmleri.",
+    img: "/image/blogs/blog2.svg",
+    title: "Otomatik Blog Payla\u015fma Suite",
+    desc: "\u0130\u00e7erik takvimi, sosyal medya entegrasyonu ve performans raporlar\u0131yla yay\u0131nlar\u0131 u\u00e7tan y\u00f6netin.",
     buttonLabel: "Hemen Sat\u0131n Al",
   },
   {
-    img: "/deykem-logo.png",
-    title: "Kurumsal D\u00f6n\u00fc\u015f\u00fcm Suite",
-    desc: "\u00d6zel yaz\u0131l\u0131m geli\u015ftirme, mikroservis mimarisi ve 7/24 DevOps deste\u011fi.",
+    img: "/image/blogs/blog-12.jpeg",
+    title: "Deykem Suite Kurumsal",
+    desc: "\u00dc\u00e7 eklentinin tamam\u0131, otomasyon dan\u0131\u015fmanl\u0131\u011f\u0131 ve 7/24 destek hizmeti bir arada.",
     buttonLabel: "Hemen Sat\u0131n Al",
   },
 ];
@@ -36,13 +36,14 @@ export function Events() {
     <section className="py-20 px-8">
       <div className="container mx-auto mb-20 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4 text-[#0F172A]">
-          {"Fiyatland\u0131rma ve paketler"}
+          Fiyatland\u0131rma ve paketler
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          {"WordPress eklentileri, otomasyon sistemleri ve yapay zek\u00e2 hizmetlerimiz i\u00e7in \u015feffaf, \u00f6l\u00e7eklenebilir paketleri inceleyin."}
+          WordPress eklentilerimizi ihtiyac\u0131n\u0131za g\u00f6re lisanslay\u0131n veya tam paketle otomasyon ve
+          yapay zek\u00e2 projelerinizi h\u0131zland\u0131r\u0131n.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
@@ -53,6 +54,5 @@ export function Events() {
     </section>
   );
 }
-
 
 export default Events;
