@@ -10,9 +10,22 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Course Landing Page",
+  title: "Deykem \u2013 WordPress Eklentileri, Otomasyon ve Yapay Zek\u00e2 Hizmetleri",
   description:
-    "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
+    "Deykem, WordPress eklentileri, \u00f6zel yaz\u0131l\u0131m geli\u015ftirme, otomasyon sistemleri ve yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri sunar.",
+  keywords: [
+    "Deykem",
+    "Deykem Teknoloji",
+    "WordPress eklentileri",
+    "otomasyon sistemleri",
+    "yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri",
+    "yaz\u0131l\u0131m geli\u015ftirme",
+  ],
+  openGraph: {
+    title: "Deykem \u2013 WordPress Eklentileri, Otomasyon ve Yapay Zek\u00e2 Hizmetleri",
+    description:
+      "Deykem, WordPress eklentileri, \u00f6zel yaz\u0131l\u0131m geli\u015ftirme, otomasyon sistemleri ve yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri sunar.",
+  },
 };
 
 export default function RootLayout({
@@ -21,14 +34,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <head>
         <script
           defer
           data-site="YOUR_DOMAIN_HERE"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
-        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="shortcut icon" href="/deykem-logo.png" type="image/png" />
       </head>
       <body className={roboto.className}>
         <Layout>

@@ -18,13 +18,13 @@ interface EventCardProps {
 export function EventCard({ img, title, desc, buttonLabel }: EventCardProps) {
   return (
     <Card color="transparent" shadow={false}>
-      <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">
+      <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48 bg-[#0F172A]">
         <Image
           width={768}
           height={768}
           src={img}
           alt={title}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain p-6"
         />
       </CardHeader>
       <CardBody className="p-0">
@@ -39,7 +39,7 @@ export function EventCard({ img, title, desc, buttonLabel }: EventCardProps) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button color="gray" size="sm">
+        <Button size="sm" className="bg-[#10B981] text-[#0F172A] font-semibold">
           {buttonLabel}
         </Button>
       </CardBody>

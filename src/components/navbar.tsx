@@ -17,17 +17,20 @@ import {
 
 const NAV_MENU = [
   {
-    name: "Page",
+    name: "Hakk\u0131m\u0131zda",
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
+    name: "Hizmetler",
+    icon: Squares2X2Icon,
   },
   {
-    name: "Docs",
+    name: "\u00c7\u00f6z\u00fcmler",
     icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+  },
+  {
+    name: "\u0130leti\u015fim",
+    icon: UserCircleIcon,
   },
 ];
 
@@ -45,7 +48,7 @@ function NavItem({ children, href }: NavItemProps) {
         target={href ? "_blank" : "_self"}
         variant="paragraph"
         color="gray"
-        className="flex items-center gap-2 font-medium text-gray-900"
+        className="flex items-center gap-2 font-medium text-[#0F172A] hover:text-[#10B981] transition-colors"
       >
         {children}
       </Typography>
@@ -76,8 +79,8 @@ export function Navbar() {
           className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6"
         >
           <div className="flex items-center justify-between">
-            <Typography color="blue-gray" className="text-lg font-bold">
-              Material Tailwind
+            <Typography color="blue-gray" className="text-lg font-bold text-[#0F172A]">
+              Deykem Teknoloji
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
               {NAV_MENU.map(({ name, icon: Icon, href }) => (
@@ -88,13 +91,12 @@ export function Navbar() {
               ))}
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
-              <Button variant="text">Log in</Button>
-              <a
-                href="https://www.material-tailwind.com/blocks"
-                target="_blank"
-              >
-                <Button color="gray">Blocks</Button>
-              </a>
+              <Button variant="outlined" className="border-[#0F172A] text-[#0F172A] font-semibold">
+                {"\u00dcr\u00fcnleri G\u00f6r"}
+              </Button>
+              <Button className="bg-[#10B981] text-[#0F172A] font-semibold">
+                {"Proje Ba\u015flat"}
+              </Button>
             </div>
             <IconButton
               variant="text"
@@ -120,13 +122,12 @@ export function Navbar() {
                 ))}
               </ul>
               <div className="mt-6 mb-4 flex items-center gap-4">
-                <Button variant="text">Log in</Button>
-                <a
-                  href="https://www.material-tailwind.com/blocks"
-                  target="_blank"
-                >
-                  <Button color="gray">blocks</Button>
-                </a>
+                <Button variant="outlined" className="border-[#0F172A] text-[#0F172A] font-semibold w-full lg:w-auto">
+                  {"\u00dcr\u00fcnleri G\u00f6r"}
+                </Button>
+                <Button className="bg-[#10B981] text-[#0F172A] font-semibold w-full lg:w-auto">
+                  {"Proje Ba\u015flat"}
+                </Button>
               </div>
             </div>
           </Collapse>

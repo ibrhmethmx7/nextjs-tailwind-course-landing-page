@@ -5,46 +5,46 @@ import CourseCard from "@/components/course-card";
 
 const COURSES = [
   {
-    img: "/image/blogs/blog4.svg",
-    tag: "Beginner • 25 Classes • 200 Students",
-    title: "Unlock the Web Foundation",
-    label: "from $99",
-    desc: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
+    img: "/deykem-logo.png",
+    tag: "WordPress eklentileri • SEO • WooCommerce",
+    title: "Deykem E-ticaret Paketi",
+    label: "Ürünleri Gör",
+    desc: "Katalog yönetimi, ödeme entegrasyonları ve performans optimizasyonu için uçtan uca WordPress eklentileri sunuyoruz.",
   },
   {
-    img: "/image/blogs/blog3.svg",
-    tag: "Medium • 10 Classes • 150 Students",
-    title: "Craft Websites That Adapt",
-    label: "from $199",
-    desc: "Our Responsive Design course teaches you the art of creating websites that seamlessly adapt to different devices and screen sizes.",
+    img: "/deykem-logo.png",
+    tag: "Otomasyon sistemleri • CRM • ERP",
+    title: "Deykem Flow Otomasyon",
+    label: "Ürünleri Gör",
+    desc: "Satış, destek ve üretim süreçlerini tek panelde toplayan, API entegrasyonlarıyla esnek otomasyon altyapısı.",
   },
   {
-    img: "/image/blogs/blog2.svg",
-    tag: "Medium • 23 Classes • 590 Students",
-    title: "Master the Power of React",
-    label: "from $499",
-    desc: "Take your frontend development to the next level with our React Development course. Learn how to build interactive, dynamic web applications.",
+    img: "/deykem-logo.png",
+    tag: "Yapay zekâ çözümleri • RPA • NLP",
+    title: "Deykem AI Studio",
+    label: "Ürünleri Gör",
+    desc: "Müşteri hizmetleri, tahminleme ve içerik üretiminde yapay zekâ modelleriyle iş kararlarınızı hızlandırın.",
   },
   {
-    img: "/image/blogs/blog5.svg",
-    tag: "Beginner • 35 Classes • 400 Students",
-    title: "Frontend Essentials Course",
-    label: "from $49",
-    desc: "For aspiring web developers, the Frontend Essentials course is a must. Dive into the core technologies - HTML, CSS, and JavaScript.",
+    img: "/deykem-logo.png",
+    tag: "SaaS • Mikroservisler • Bulut mimarileri",
+    title: "Deykem SaaS Launchpad",
+    label: "Proje Başlat",
+    desc: "Mikroservis tabanlı SaaS platformlarını güvenli, ölçeklenebilir ve çok tenant'lı mimariyle canlıya taşıyoruz.",
   },
   {
-    img: "/image/blogs/blog6.svg",
-    tag: "Medium • 10 Classes • 150 Students",
-    title: "Streamline Your CSS Workflow",
-    label: "from $99",
-    desc: "Our Tailwind CSS Introduction course teaches you how to use this utility-first CSS framework to streamline your workflow, saving you time.",
+    img: "/deykem-logo.png",
+    tag: "Veri görselleştirme • IoT • Analitik",
+    title: "Deykem Insight Dashboard",
+    label: "Ürünleri Gör",
+    desc: "Gerçek zamanlı veri panoları ve otomatik raporlama ile karar süreçlerinizi veriye dayalı hale getirin.",
   },
   {
-    img: "/image/blogs/blog4.svg",
-    tag: "Medium • 33 Classes • 690 Students",
-    title: "Master Backend Development",
-    label: "from $299",
-    desc: "Dream of becoming a backend developer? Our intensive one-month Node.js course is your fast track to achieving that goal.",
+    img: "/deykem-logo.png",
+    tag: "Mobil uygulama • Web • Entegrasyon",
+    title: "Deykem Custom Apps",
+    label: "Proje Başlat",
+    desc: "İş hedeflerinize özel web ve mobil uygulamalar geliştirerek tüm sistemlerinizi entegre ediyoruz.",
   },
 ];
 
@@ -52,15 +52,14 @@ export function ExploreCourses() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-24 text-center">
-        <Typography variant="h2" color="blue-gray">
-          Explore Courses
+        <Typography variant="h2" color="blue-gray" className="text-[#0F172A]">
+          {"Deykem \u00fcr\u00fcn katalo\u011fu"}
         </Typography>
         <Typography
           variant="lead"
           className="mt-2 mx-auto w-full px-4 !text-gray-500 lg:w-6/12 lg:px-8"
         >
-          Browse through 1,000+ web development courses and find the one that
-          fits your needs.
+          {"WordPress eklentileri, otomasyon sistemleri ve yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri aras\u0131ndan i\u015f hedeflerinize uygun olan\u0131 se\u00e7in."}
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-24 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-14">

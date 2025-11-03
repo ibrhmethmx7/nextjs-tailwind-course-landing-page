@@ -20,28 +20,28 @@ import CategoryCard from "@/components/category-card";
 
 const CATEGORIES = [
   {
-    img: "/image/blogs/blog-3.png",
+    img: "/deykem-logo.png",
     icon: HeartIcon,
-    title: "Frontend Web Development",
-    desc: "300 Courses",
+    title: "WordPress eklentileri ve bak\u0131m",
+    desc: "Ki\u015fiselle\u015ftirilmi\u015f mod\u00fcller, performans optimizasyonu",
   },
   {
-    img: "/image/blogs/blog-12.jpeg",
+    img: "/deykem-logo.png",
     icon: PuzzlePieceIcon,
-    title: "Backend Web Development",
-    desc: "200 Courses",
+    title: "Otomasyon sistemleri",
+    desc: "CRM, ERP ve i\u015f ak\u0131\u015f\u0131 entegrasyonlar\u0131",
   },
   {
-    img: "/image/blogs/blog-10.jpeg",
+    img: "/deykem-logo.png",
     icon: GlobeEuropeAfricaIcon,
-    title: "Web Security & Performance",
-    desc: "240 Courses",
+    title: "Yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri",
+    desc: "Veri analiti\u011fi, RPA ve \u00fcretken AI uygulamalar\u0131",
   },
   {
-    img: "/image/blogs/blog-13.png",
+    img: "/deykem-logo.png",
     icon: MicrophoneIcon,
-    title: "Full-Stack Web Development",
-    desc: "100 Courses",
+    title: "\u00d6zel yaz\u0131l\u0131m geli\u015ftirme",
+    desc: "SaaS platformlar\u0131, web uygulamalar\u0131, entegrasyonlar",
   },
 ];
 
@@ -49,12 +49,11 @@ export function CoursesCategories() {
   return (
     <section className="container mx-auto px-8 py-36">
       <div className="mb-20 grid place-items-center text-center">
-        <Typography variant="h2" color="blue-gray" className="my-3">
-          Courses Categories
+        <Typography variant="h2" color="blue-gray" className="my-3 text-[#0F172A]">
+          {"Deykem Teknoloji hizmet portf\u00f6y\u00fc"}
         </Typography>
         <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
-          A comprehensive selection of courses designed to empower you with the
-          skills you need to thrive in the dynamic world of web development.
+          {"WordPress eklentileri, otomasyon sistemleri, yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri ve yaz\u0131l\u0131m geli\u015ftirme projeleriyle i\u015fletmenizi gelece\u011fe haz\u0131rl\u0131yoruz."}
         </Typography>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
@@ -65,19 +64,19 @@ export function CoursesCategories() {
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
           <CardBody className="relative w-full">
             <Typography color="white" className="text-xs font-bold opacity-50">
-              HTML, CSS & Javascript
+              {"Deykem Teknoloji"}
             </Typography>
             <Typography variant="h4" className="mt-9" color="white">
-              Web Development Intro
+              {"Stratejik dijital d\u00f6n\u00fc\u015f\u00fcm"}
             </Typography>
             <Typography
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
             >
-              Ready to start your web development journey?
+              {"Dan\u0131\u015fmanl\u0131k, analiz ve proje y\u00f6netimi ile fikirden canl\u0131ya kadar yan\u0131n\u0131zday\u0131z."}
             </Typography>
-            <Button size="sm" color="white">
-              Enroll Now
+            <Button size="sm" color="white" className="text-[#0F172A]">
+              {"Proje Ba\u015flat"}
             </Button>
           </CardBody>
         </Card>

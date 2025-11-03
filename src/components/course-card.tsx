@@ -13,13 +13,13 @@ interface CourseCardProps {
 export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
   return (
     <Card className="border">
-      <CardHeader className="h-64">
+      <CardHeader className="h-64 bg-[#0F172A]">
         <Image
           width={768}
           height={768}
           src={img}
           alt={title}
-          className="h-full w-full object-cover scale-[1.1]"
+          className="h-full w-full object-contain p-10"
         />
       </CardHeader>
       <CardBody>
@@ -27,7 +27,7 @@ export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
           <Typography
             variant="small"
             color="blue"
-            className="mb-2 font-normal text-gray-500"
+            className="mb-2 font-normal text-[#10B981]"
           >
             {tag}
           </Typography>
@@ -43,7 +43,9 @@ export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button variant="outlined">{label}</Button>
+        <Button className="bg-[#0F172A] text-white font-semibold hover:shadow-lg hover:shadow-[#0F172A]/30">
+          {label}
+        </Button>
       </CardBody>
     </Card>
   );

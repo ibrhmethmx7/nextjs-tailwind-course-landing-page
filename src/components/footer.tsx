@@ -2,16 +2,26 @@ import { Typography, Button, Input } from "@material-tailwind/react";
 
 const LINKS = [
   {
-    title: "Company",
-    items: ["About Us", "Careers", "Premium Tools", "Blog"],
+    title: "Deykem Teknoloji",
+    items: ["Hakk\u0131m\u0131zda", "Ekibimiz", "Kariyer", "Blog"],
   },
   {
-    title: "Pages",
-    items: ["Login", "Register", "Add List", "Contact"],
+    title: "Hizmetler",
+    items: [
+      "WordPress eklentileri",
+      "Otomasyon sistemleri",
+      "Yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri",
+      "Yaz\u0131l\u0131m geli\u015ftirme",
+    ],
   },
   {
-    title: "Legal",
-    items: ["Terms", "Privacy", "Team", "About Us"],
+    title: "Kaynaklar",
+    items: [
+      "Vaka \u00e7al\u0131\u015fmalar\u0131",
+      "Belgeler",
+      "SSS",
+      "Gizlilik politikas\u0131",
+    ],
   },
 ];
 
@@ -43,33 +53,31 @@ export function Footer() {
             ))}
           </div>
           <div className="">
-            <Typography variant="h6" className="mb-3 text-left">
-              Subscribe
+            <Typography variant="h6" className="mb-3 text-left text-[#0F172A]">
+              {"Bizimle ileti\u015fime ge\u00e7in"}
             </Typography>
             <Typography className="!text-gray-500 font-normal mb-4 text-base">
-              Get access to subscriber exclusive deals and be the first who gets
-              informed about fresh sales.
+              {"Proje fikirlerinizi ve otomasyon hedeflerinizi bizimle payla\u015f\u0131n. 24 saat i\u00e7inde WordPress eklentileri, yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri ve yaz\u0131l\u0131m geli\u015ftirme ekiplerimiz d\u00f6n\u00fc\u015f yapar."}
             </Typography>
             <Typography variant="small" className="font-medium mb-2 text-left">
-              Your Email
+              {"E-posta"}
             </Typography>
             <div className="flex mb-3 flex-col lg:flex-row items-start gap-4">
               <div className="w-full">
                 {/* @ts-ignore */}
-                <Input label="Email" color="gray" />
+                <Input label="ornek@deykem.com" color="gray" />
                 <Typography className="font-medium mt-3 !text-sm !text-gray-500 text-left">
-                  I agree the{" "}
-                  <a
-                    href="#"
-                    className="font-bold underline hover:text-gray-900 transition-colors"
-                  >
-                    Terms and Conditions{" "}
-                  </a>
+                  {"KVKK metnimizi onaylayarak Deykem Teknoloji'den ileti almak istedi\u011fimi kabul ediyorum."}
                 </Typography>
               </div>
-              <Button color="gray" className="w-full lg:w-fit" size="md">
-                button
+              <Button className="w-full lg:w-fit bg-[#10B981] text-[#0F172A] font-semibold" size="md">
+                {"Proje Ba\u015flat"}
               </Button>
+            </div>
+            <div className="text-left text-sm text-gray-600 space-y-1">
+              <p>{"Telefon: +90 (212) 000 00 00"}</p>
+              <p>{"E-posta: iletisim@deykem.com"}</p>
+              <p>{"Adres: Teknopark \u0130stanbul, A1 Blok No:405"}</p>
             </div>
           </div>
         </div>
@@ -77,15 +85,7 @@ export function Footer() {
           color="blue-gray"
           className="md:text-center mt-16 font-normal !text-gray-700"
         >
-          &copy; {CURRENT_YEAR} Made with{" "}
-          <a href="https://www.material-tailwind.com" target="_blank">
-            Material Tailwind
-          </a>{" "}
-          by{" "}
-          <a href="https://www.creative-tim.com" target="_blank">
-            Creative Tim
-          </a>
-          .
+          {`\u00a9 ${CURRENT_YEAR} Deykem Teknoloji. WordPress eklentileri, otomasyon sistemleri ve yapay zek\u00e2 \u00e7\u00f6z\u00fcmlerinde t\u00fcm haklar\u0131 sakl\u0131d\u0131r.`}
         </Typography>
       </div>
     </footer>
