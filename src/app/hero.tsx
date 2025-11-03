@@ -6,8 +6,8 @@ import { Button, Typography, Card, Chip } from "@material-tailwind/react";
 const HERO_PILLS = [
   "Deykem Resim Eklentisi",
   "Deykem Dil Eklentisi",
-  "Otomatik Blog Payla\u015fma",
-  "\u00d6zel Yaz\u0131l\u0131m ve Otomasyon",
+  "Otomatik Blog Paylaşma",
+  "Özel Yazılım ve Otomasyon",
 ];
 
 function Hero() {
@@ -28,22 +28,22 @@ function Hero() {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl text-[#0F172A]"
             >
-              Deykem Teknoloji ile yaz\u0131l\u0131m g\u00fcc\u00fcn\u00fcz\u00fc h\u0131zland\u0131r\u0131n
+              Deykem Teknoloji ile yazılım gücünüzü hızlandırın
             </Typography>
             <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
-              WordPress eklentileri, yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri ve otomasyon sistemleri ile i\u015f
-              s\u00fcre\u00e7lerinizi u\u00e7tan uca d\u00f6n\u00fc\u015ft\u00fcr\u00fcyoruz. Deykem m\u00fchendisleri,
-              ihtiya\u00e7lar\u0131n\u0131za \u00f6zel yaz\u0131l\u0131m projelerini g\u00fcvenle teslim eder.
+              WordPress eklentileri, yapay zekâ çözümleri ve otomasyon sistemleri ile iş süreçlerinizi
+              uçtan uca dönüştürüyoruz. Deykem mühendisleri, ihtiyaçlarınıza özel yazılım projelerini
+              güvenle teslim eder.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button className="bg-[#10B981] text-[#0F172A] font-semibold tracking-wide">
-                \u00dcr\u00fcnleri G\u00f6r
+              <Button className="bg-[#F5E6D3] text-[#0F172A] font-semibold tracking-wide">
+                Ürünleri Gör
               </Button>
               <Button
                 variant="outlined"
                 className="border-[#0F172A] text-[#0F172A] font-semibold tracking-wide"
               >
-                Proje Ba\u015flat
+                Proje Başlat
               </Button>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-between gap-3 lg:justify-start">

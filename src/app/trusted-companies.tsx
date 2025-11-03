@@ -5,29 +5,29 @@ import { Typography } from "@material-tailwind/react";
 
 const FAQ = [
   {
-    question: "WordPress eklentileriniz hangi altyap\u0131larla uyumlu?",
+    question: "WordPress eklentileriniz hangi altyapılarla uyumlu?",
     answer:
-      "Deykem eklentileri WooCommerce, Elementor ve kurumsal tema altyap\u0131lar\u0131yla test edilmi\u015ftir.",
+      "Deykem eklentileri WooCommerce, Elementor ve kurumsal tema altyapılarıyla test edilmiştir.",
   },
   {
-    question: "Otomasyon sistemleri ne kadar s\u00fcrede devreye al\u0131n\u0131r?",
+    question: "Otomasyon sistemleri ne kadar sürede devreye alınır?",
     answer:
-      "Analizden canl\u0131ya ge\u00e7i\u015fe kadar ortalama 4-6 hafta i\u00e7inde tamaml\u0131yoruz.",
+      "Analizden canlıya geçişe kadar ortalama 4-6 hafta içinde tamamlıyoruz.",
   },
   {
-    question: "Yapay zek\u00e2 \u00e7\u00f6z\u00fcmleriniz veri g\u00fcvenli\u011fini nas\u0131l sa\u011flar?",
+    question: "Yapay zekâ çözümleriniz veri güvenliğini nasıl sağlar?",
     answer:
-      "T\u00fcm AI entegrasyonlar\u0131nda \u015fifrelenmi\u015f veri transferi ve rol tabanl\u0131 eri\u015fim politikalar\u0131 uygular\u0131z.",
+      "Tüm AI entegrasyonlarında şifrelenmiş veri transferi ve rol tabanlı erişim politikaları uygularız.",
   },
   {
-    question: "\u00d6zel yaz\u0131l\u0131m geli\u015ftirme sonras\u0131 destek sunuyor musunuz?",
+    question: "Özel yazılım geliştirme sonrası destek sunuyor musunuz?",
     answer:
-      "7/24 izleme, bak\u0131m ve s\u00fcrekli iyile\u015ftirme hizmetlerimizi SLA kapsam\u0131nda sa\u011fl\u0131yoruz.",
+      "7/24 izleme, bakım ve sürekli iyileştirme hizmetlerimizi SLA kapsamında sağlıyoruz.",
   },
   {
-    question: "Projelere nas\u0131l ba\u015fl\u0131yoruz?",
+    question: "Projelere nasıl başlıyoruz?",
     answer:
-      "\u0130htiya\u00e7 analiz workshop'u ile ba\u015flar, ard\u0131ndan yol haritas\u0131 ve sprint planlar\u0131n\u0131 sizinle payla\u015f\u0131r\u0131z.",
+      "İhtiyaç analiz workshop'u ile başlar, ardından yol haritası ve sprint planlarını sizinle paylaşırız.",
   },
 ];
 
@@ -37,10 +37,10 @@ function TrustedCompany() {
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
-            {"SSS"}
+            SSS
           </Typography>
           <Typography variant="h2" color="blue-gray" className="mb-12 text-[#0F172A]">
-            {"S\u0131k\u00e7a sorulan sorular"}
+            Sıkça sorulan sorular
           </Typography>
         </div>
         <div className="flex flex-wrap items-start justify-center gap-10 text-left">

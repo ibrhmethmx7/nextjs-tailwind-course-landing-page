@@ -19,32 +19,27 @@ function TESTIMONIAL() {
               />
             </div>
             <div className="col-span-2 w-full">
-              <Typography variant="h6" color="blue" className="mb-4 text-[#10B981]">
+              <Typography variant="h6" color="blue" className="mb-4 text-[#B79B6C]">
                 Deykem Teknoloji vaka incelemesi
               </Typography>
-              <Typography
-                variant="h3"
-                color="blue-gray"
-                className="mb-4 font-bold"
-              >
-                \u00dc\u00e7 eklenti ile %99 i\u00e7erik otomasyonu
+              <Typography variant="h3" color="blue-gray" className="mb-4 font-bold">
+                Üç eklenti ile %99 içerik otomasyonu
               </Typography>
               <Typography className="mb-1 w-full font-normal !text-gray-500">
-                Resim, dil ve otomatik blog payla\u015fma eklentilerinin birlikte \u00e7al\u0131\u015ft\u0131\u011f\u0131
-                Deykem Suite, i\u00e7erik yay\u0131n s\u00fcresini saatlerden dakikalara indirdi ve SEO performans\u0131n\u0131
-                %30 art\u0131rd\u0131.
+                Resim, dil ve otomatik blog paylaşma eklentilerinin birlikte çalıştığı Deykem Suite, içerik
+                yayın süresini saatlerden dakikalara indirdi ve SEO performansını %30 artırdı.
               </Typography>
               <div className="grid mb-4">
                 <div className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-gray-500 rounded-full" />
                   <Typography className="w-full font-normal !text-gray-500">
-                    WordPress eklentileriyle \u00e7ok dillilik ve g\u00f6rsel optimizasyon senkron ilerliyor
+                    WordPress eklentileriyle çok dillilik ve görsel optimizasyon senkron ilerliyor
                   </Typography>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="h-1 w-1 bg-gray-500 rounded-full" />
                   <Typography className="w-full font-normal !text-gray-500">
-                    Otomatik blog payla\u015f\u0131m\u0131 sosyal kanallara 3 kat daha h\u0131zl\u0131 da\u011f\u0131t\u0131m sa\u011fl\u0131yor
+                    Otomatik blog paylaşımı sosyal kanallara 3 kat daha hızlı dağıtım sağlıyor
                   </Typography>
                 </div>
               </div>
@@ -59,11 +54,8 @@ function TESTIMONIAL() {
                   <Typography variant="h6" color="blue-gray" className="mb-0.5">
                     Murat Erel
                   </Typography>
-                  <Typography
-                    variant="small"
-                    className="font-normal !text-gray-500"
-                  >
-                    Operasyon Direkt\u00f6r\u00fc @ Lojitek
+                  <Typography variant="small" className="font-normal !text-gray-500">
+                    Operasyon Direktörü @ Lojitek
                   </Typography>
                 </div>
               </div>

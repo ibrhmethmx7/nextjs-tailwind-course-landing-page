@@ -27,7 +27,7 @@ export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
           <Typography
             variant="small"
             color="blue"
-            className="mb-2 font-normal text-[#10B981]"
+            className="mb-2 font-normal text-[#B79B6C]"
           >
             {tag}
           </Typography>

@@ -17,7 +17,7 @@ export function FixedPlugin() {
           alt="Deykem Teknoloji"
           src="/deykem-logo.png"
         />
-        {"Deykem ile ileti\u015fime ge\u00e7"}
+        Deykem ile iletişime geç
       </Button>
     </a>
   );

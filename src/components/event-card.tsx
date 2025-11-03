@@ -39,7 +39,7 @@ export function EventCard({ img, title, desc, buttonLabel }: EventCardProps) {
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
-        <Button size="sm" className="bg-[#10B981] text-[#0F172A] font-semibold">
+        <Button size="sm" className="bg-[#F5E6D3] text-[#0F172A] font-semibold">
           {buttonLabel}
         </Button>
       </CardBody>

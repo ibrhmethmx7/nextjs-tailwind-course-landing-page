@@ -13,7 +13,7 @@ export function FeedbackCard({ img, feedback, client, title }: FeedbackCardProps
   return (
     <Card shadow={false} className="items-start text-left">
       <CardBody>
-        <Avatar src={img} className="mb-2 border border-[#10B981] bg-white" alt={client} size="xl" />
+        <Avatar src={img} className="mb-2 border border-[#B79B6C] bg-white" alt={client} size="xl" />
         <Typography variant="h6" color="blue-gray" className="text-[#0F172A]">
           {client}
         </Typography>

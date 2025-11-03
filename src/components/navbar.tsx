@@ -17,7 +17,7 @@ import {
 
 const NAV_MENU = [
   {
-    name: "Hakk\u0131m\u0131zda",
+    name: "Hakkımızda",
     icon: RectangleStackIcon,
   },
   {
@@ -25,11 +25,11 @@ const NAV_MENU = [
     icon: Squares2X2Icon,
   },
   {
-    name: "\u00c7\u00f6z\u00fcmler",
+    name: "Çözümler",
     icon: CommandLineIcon,
   },
   {
-    name: "\u0130leti\u015fim",
+    name: "İletişim",
     icon: UserCircleIcon,
   },
 ];
@@ -48,7 +48,7 @@ function NavItem({ children, href }: NavItemProps) {
         target={href ? "_blank" : "_self"}
         variant="paragraph"
         color="gray"
-        className="flex items-center gap-2 font-medium text-[#0F172A] hover:text-[#10B981] transition-colors"
+        className="flex items-center gap-2 font-medium text-[#0F172A] hover:text-[#B79B6C] transition-colors"
       >
         {children}
       </Typography>
@@ -92,10 +92,10 @@ export function Navbar() {
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
               <Button variant="outlined" className="border-[#0F172A] text-[#0F172A] font-semibold">
-                {"\u00dcr\u00fcnleri G\u00f6r"}
+                Ürünleri Gör
               </Button>
-              <Button className="bg-[#10B981] text-[#0F172A] font-semibold">
-                {"Proje Ba\u015flat"}
+              <Button className="bg-[#F5E6D3] text-[#0F172A] font-semibold">
+                Proje Başlat
               </Button>
             </div>
             <IconButton
@@ -122,11 +122,14 @@ export function Navbar() {
                 ))}
               </ul>
               <div className="mt-6 mb-4 flex items-center gap-4">
-                <Button variant="outlined" className="border-[#0F172A] text-[#0F172A] font-semibold w-full lg:w-auto">
-                  {"\u00dcr\u00fcnleri G\u00f6r"}
+                <Button
+                  variant="outlined"
+                  className="border-[#0F172A] text-[#0F172A] font-semibold w-full lg:w-auto"
+                >
+                  Ürünleri Gör
                 </Button>
-                <Button className="bg-[#10B981] text-[#0F172A] font-semibold w-full lg:w-auto">
-                  {"Proje Ba\u015flat"}
+                <Button className="bg-[#F5E6D3] text-[#0F172A] font-semibold w-full lg:w-auto">
+                  Proje Başlat
                 </Button>
               </div>
             </div>

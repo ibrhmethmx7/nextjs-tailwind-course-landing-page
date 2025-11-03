@@ -10,7 +10,7 @@ interface StatsCardProps {
 export function StatsCard({ icon: Icon, count, title }: StatsCardProps) {
   return (
     <Card color="transparent" shadow={false} className="items-center">
-      <Icon className="h-7 w-7 text-[#10B981]" />
+      <Icon className="h-7 w-7 text-[#B79B6C]" />
       <Typography variant="h1" color="blue-gray" className="mb-2 mt-4 text-5xl text-[#0F172A]">
         {count}
       </Typography>

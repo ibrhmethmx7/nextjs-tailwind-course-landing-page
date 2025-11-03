@@ -10,21 +10,21 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Deykem \u2013 WordPress Eklentileri, Otomasyon ve Yapay Zek\u00e2 Hizmetleri",
+  title: "Deykem – WordPress Eklentileri, Otomasyon ve Yapay Zekâ Hizmetleri",
   description:
-    "Deykem, WordPress eklentileri, \u00f6zel yaz\u0131l\u0131m geli\u015ftirme, otomasyon sistemleri ve yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri sunar.",
+    "Deykem, WordPress eklentileri, özel yazılım geliştirme, otomasyon sistemleri ve yapay zekâ çözümleri sunar.",
   keywords: [
     "Deykem",
     "Deykem Teknoloji",
     "WordPress eklentileri",
     "otomasyon sistemleri",
-    "yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri",
-    "yaz\u0131l\u0131m geli\u015ftirme",
+    "yapay zekâ çözümleri",
+    "yazılım geliştirme",
   ],
   openGraph: {
-    title: "Deykem \u2013 WordPress Eklentileri, Otomasyon ve Yapay Zek\u00e2 Hizmetleri",
+    title: "Deykem – WordPress Eklentileri, Otomasyon ve Yapay Zekâ Hizmetleri",
     description:
-      "Deykem, WordPress eklentileri, \u00f6zel yaz\u0131l\u0131m geli\u015ftirme, otomasyon sistemleri ve yapay zek\u00e2 \u00e7\u00f6z\u00fcmleri sunar.",
+      "Deykem, WordPress eklentileri, özel yazılım geliştirme, otomasyon sistemleri ve yapay zekâ çözümleri sunar.",
   },
 };
 
