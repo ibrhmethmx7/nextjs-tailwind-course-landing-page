@@ -12,7 +12,9 @@ interface CourseCardProps {
 
 export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
   return (
+    // @ts-ignore
     <Card className="border">
+      {/* @ts-ignore */}
       <CardHeader className="h-64">
         <Image
           width={768}
@@ -22,8 +24,10 @@ export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
           className="h-full w-full object-cover scale-[1.1]"
         />
       </CardHeader>
+      {/* @ts-ignore */}
       <CardBody>
         <div className="flex items-center gap-2">
+          {/* @ts-ignore */}
           <Typography
             variant="small"
             color="blue"
@@ -36,13 +40,16 @@ export function CourseCard({ img, tag, title, desc, label }: CourseCardProps) {
           href="#"
           className="text-blue-gray-900 transition-colors hover:text-gray-900"
         >
+          {/* @ts-ignore */}
           <Typography variant="h5" className="mb-2 normal-case">
             {title}
           </Typography>
         </a>
+        {/* @ts-ignore */}
         <Typography className="mb-6 font-normal !text-gray-500">
           {desc}
         </Typography>
+        {/* @ts-ignore */}
         <Button variant="outlined">{label}</Button>
       </CardBody>
     </Card>

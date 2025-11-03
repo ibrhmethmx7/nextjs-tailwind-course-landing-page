@@ -18,11 +18,13 @@ function TrustedCompany() {
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
+          {/* @ts-ignore */}
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
-            AWESOME COMMUNITY
+            G?VEN?L?R ORTAK
           </Typography>
+          {/* @ts-ignore */}
           <Typography variant="h2" color="blue-gray" className="mb-12">
-            Trusted by over 200+ Companies
+            200+ ?irkete Hizmet Verdik
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10">

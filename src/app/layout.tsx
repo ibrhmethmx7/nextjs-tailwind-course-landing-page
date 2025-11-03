@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Course Landing Page",
+  title: "Deykem ? WordPress Eklentileri, Otomasyon ve Yapay Zek? Hizmetleri",
   description:
-    "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
+    "Deykem, WordPress eklentileri, ?zel yaz?l?m geli?tirme, otomasyon sistemleri ve yapay zek? ??z?mleri sunar.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="tr">
       <head>
         <script
           defer

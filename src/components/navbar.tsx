@@ -17,17 +17,16 @@ import {
 
 const NAV_MENU = [
   {
-    name: "Page",
+    name: "Hizmetler",
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
+    name: "?r?nler",
+    icon: Squares2X2Icon,
   },
   {
-    name: "Docs",
-    icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    name: "?leti?im",
+    icon: UserCircleIcon,
   },
 ];
 
@@ -39,6 +38,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
+      {/* @ts-ignore */}
       <Typography
         as="a"
         href={href || "#"}
@@ -70,32 +70,32 @@ export function Navbar() {
   return (
     <div className="px-10 sticky top-4 z-50">
       <div className="mx-auto container">
+        {/* @ts-ignore */}
         <MTNavbar
           blurred
           color="white"
           className="z-50 mt-6 relative border-0 pr-3 py-3 pl-6"
         >
           <div className="flex items-center justify-between">
+            {/* @ts-ignore */}
             <Typography color="blue-gray" className="text-lg font-bold">
-              Material Tailwind
+              Deykem
             </Typography>
             <ul className="ml-10 hidden items-center gap-8 lg:flex">
-              {NAV_MENU.map(({ name, icon: Icon, href }) => (
-                <NavItem key={name} href={href}>
+              {NAV_MENU.map(({ name, icon: Icon }) => (
+                <NavItem key={name}>
                   <Icon className="h-5 w-5" />
                   {name}
                 </NavItem>
               ))}
             </ul>
             <div className="hidden items-center gap-4 lg:flex">
-              <Button variant="text">Log in</Button>
-              <a
-                href="https://www.material-tailwind.com/blocks"
-                target="_blank"
-              >
-                <Button color="gray">Blocks</Button>
-              </a>
+              {/* @ts-ignore */}
+              <Button variant="text">Giri? Yap</Button>
+              {/* @ts-ignore */}
+              <Button color="gray">Teklif Al</Button>
             </div>
+            {/* @ts-ignore */}
             <IconButton
               variant="text"
               color="gray"
@@ -109,24 +109,22 @@ export function Navbar() {
               )}
             </IconButton>
           </div>
+          {/* @ts-ignore */}
           <Collapse open={open}>
             <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
               <ul className="flex flex-col gap-4">
-                {NAV_MENU.map(({ name, icon: Icon, href }) => (
-                  <NavItem key={name} href={href}>
+                {NAV_MENU.map(({ name, icon: Icon }) => (
+                  <NavItem key={name}>
                     <Icon className="h-5 w-5" />
                     {name}
                   </NavItem>
                 ))}
               </ul>
               <div className="mt-6 mb-4 flex items-center gap-4">
-                <Button variant="text">Log in</Button>
-                <a
-                  href="https://www.material-tailwind.com/blocks"
-                  target="_blank"
-                >
-                  <Button color="gray">blocks</Button>
-                </a>
+                {/* @ts-ignore */}
+                <Button variant="text">Giri? Yap</Button>
+                {/* @ts-ignore */}
+                <Button color="gray">Teklif Al</Button>
               </div>
             </div>
           </Collapse>
